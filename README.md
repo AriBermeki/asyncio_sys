@@ -5,7 +5,7 @@
 
 # Writing the provided information into a markdown file named "main.txt"
 
-content = """
+
 # Python asyncio und AbstractEventLoop
 
 `asyncio` ist ein Modul in Python, das für die asynchrone Programmierung verwendet wird. Es ermöglicht die gleichzeitige Ausführung von Aufgaben, ohne dass mehrere Threads oder Prozesse benötigt werden. Das Modul basiert auf dem Konzept des Ereignisschleifenmodells (Event Loop), das vor allem in Netzwerk- und I/O-intensiven Anwendungen verwendet wird.
@@ -120,3 +120,18 @@ async def main():
 
 loop = asyncio.get_event_loop()
 loop.run_until_complete(main())
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
